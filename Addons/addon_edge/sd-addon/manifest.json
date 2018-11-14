@@ -1,0 +1,38 @@
+{
+  "name": "Service Desk Addon",
+  "author": "Mike Corso & Isaac Steiner",
+  "version": "0.1",
+  "description": "Offer additonal functionality for Service Desk",
+  "permissions": 
+    [
+      "<all_urls>",
+      "contextMenus",
+      "cookies",
+      "geolocation",
+      "idle",
+      "storage",
+      "tabs",
+      "unlimitedStorage",
+      "webNavigation",
+      "webRequest",
+      "webRequestBlocking",
+      "clipboard",
+      "clipboard-write",
+      "clipboard-read"
+    ], 
+  "browser_action": 
+    {
+      "default_icon": 
+        {
+          "20": "images/color-changer20.png",
+          "40": "images/color-changer40.png"
+        },
+    "default_title": "Service Desk Addon",
+    "default_popup": "main.html"
+  },
+  "icons": 
+  {
+    "25": "images/color-changer25.png",
+    "48": "images/color-changer48.png"
+  }
+}
