@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Service Desk (D365-C)",
+  "description": "Service Desk extension to improve functionality.",
+  "version": "1.0",
+  "author":  "Michael Corso",
+
+  "browser_action": {
+    "default_title":  "Service Desk (365-C)",
+    "default_icon": { "20": "imgs/sdicon.png" }
+  },
+  "background": {
+    "page": "sd-365c.html",
+    "persistent": true
+  },  
+  "permissions": [
+    "notifications"
+  ]
+}
