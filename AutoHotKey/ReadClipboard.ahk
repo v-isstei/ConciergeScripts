@@ -1,0 +1,1 @@
+FileRead, Clipboard, *c signature.norm ; look for the use of *c  before the filename.rtf. so dont change that
