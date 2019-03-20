@@ -1,0 +1,10 @@
+input[aria-label="Title"].ng-untouched,
+input[aria-label="Support Ticket Id"].ng-empty,
+input[aria-label="Subscription Id"].ng-empty,
+input[aria-label="Customer Name"].ng-empty,
+select[aria-label="Cloud Instance"].ng-empty,
+select[aria-label="Environment"].ng-empty,
+select[aria-label="Customer Type"].ng-empty,
+input[aria-label="OrganizationID"].ng-empty{
+    background: #add8e6;
+}
